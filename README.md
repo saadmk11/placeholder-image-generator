@@ -11,9 +11,11 @@ A small python tool that generates placeholder images with specific dimensions.
 
 - `python main.py 400x200`
 
-- `python main.py 400x200 -n new.png -c white -p /home/user/Desktop`
+- `python main.py 400x200 -c "#1011ff"`
 
-- `python main.py 400x200 -n new.png -rgb 10 20 30`
+- `python main.py 400x200 -c white -n new.png -p /home/user/Desktop`
+
+- `python main.py 400x200 -rgb 10 20 30 -n new.png`
 
 
 ### positional arguments:
